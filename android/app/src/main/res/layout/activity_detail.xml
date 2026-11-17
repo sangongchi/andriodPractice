@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.jy.flsh.detail.DetailViewModel" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@{viewModel.title}"
+            android:textColor="#333333"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:text="详情页" />
+
+        <EditText
+            android:id="@+id/etDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:inputType="text"
+            android:text="@={viewModel.detail}"
+            tools:text="预览用示例文本" />
+
+    </LinearLayout>
+</layout>

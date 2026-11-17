@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.FLSH" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/primary</item>
+    </style>
+
+    <!-- 扫码界面：全屏无标题栏 -->
+    <style name="Theme.FLSH.Scan" parent="Theme.FLSH">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>

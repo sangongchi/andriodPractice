@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FLSH平台</string>
+    <string name="scan_prompt">请对准二维码/条形码</string>
+    <string name="scan_close">关闭</string>
+    <string name="detail_title">详情页</string>
+</resources>
